@@ -1,0 +1,22 @@
+{
+	"plugins": [
+		"@babel/plugin-transform-react-jsx",
+		"@babel/plugin-syntax-dynamic-import",
+		"@babel/plugin-proposal-class-properties",
+		"@babel/plugin-transform-runtime"
+	],
+	"presets": [
+		["preact"],
+		[
+			"@babel/preset-env",
+			{
+				"targets": {
+					"browsers": [
+						"last 2 versions", "ie >= 11"
+					]
+				},
+				"exclude": ["transform-classes"]
+			}
+		]
+	]
+}

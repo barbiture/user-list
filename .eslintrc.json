@@ -1,0 +1,59 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:jsdoc/recommended",
+		"jsdoc-essential"
+	],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"plugins": [
+		"jsdoc",
+		"typelint",
+		"prettier"
+	],
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		],
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"typelint/typelint": 2
+	},
+	"settings": {
+		"jsdoc": {
+			"overrideReplacesDocs": true,
+			"augmentsExtendsReplacesDocs": true,
+			"implementsReplacesDocs": true,
+			"tagNamePreference": {
+				"mermaid": "mermaid",
+				"category": "category",
+				"jsx": "jsx"
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+@import './styles/reset.scss';
+@import './styles/var.scss';
+@import './styles/ui.scss';
+.container {
+	font-family: $regType;
+	font-size: $regTypeSize;
+	width: 1024px;
+	margin: 0 auto 0;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 1fr auto;
+}
+.users {
+	position: relative;
+	margin-top: calc(100vh / 2px);
+	display: grid;
+	grid-gap: 1.5em;
+	overflow: auto;
+	height: calc(100vh - 200px);
+	div {
+		align-items: center;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	img {
+		border-radius: 4px;
+	}
+}
+.hide {
+	display: none;
+}
+footer {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	height: 100px;
+	background-color: $primaryColor;
+	grid-row: 2/3;
+}

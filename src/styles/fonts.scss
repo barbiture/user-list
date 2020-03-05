@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'OpenSansRegular';
+	src: url(/assets/fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+	font-family: 'OpenSansSemi';
+	src: url(/assets/fonts/OpenSans-SemiBold.ttf);
+}
+$regType: 'OpenSansRegular', sans-serif;
+$boldType: 'OpenSansSemi', sans-serif;
+$regTypeSize: 16px;
