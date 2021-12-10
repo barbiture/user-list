@@ -47,7 +47,7 @@
     "jsdoc": "^3.6.3",
     "jsdoc-jsx": "^0.1.0",
     "jsdoc-mermaid": "^1.0.0",
-    "mermaid": "^8.4.8",
+    "mermaid": "^8.11.0",
     "mini-css-extract-plugin": "^0.8.2",
     "node-sass": "^4.13.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
